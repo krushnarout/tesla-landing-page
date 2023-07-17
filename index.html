@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A product landing page for a Tesla car created for the FreeCodeCamp's Responsive Web Design Certification.">
+  <title>Tesla</title>
+</head>
+
+<body>
+
+<header id="header">
+  <div class="logo">
+    <img class="logo-img" id="header-img" src="images/Tesla.svg" alt="Tesla logo" />
+  </div>
+
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#why">Why</a></li>
+      <li><a class="nav-link" href="#recent-cars">Explore</a></li>
+      <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="hero">
+    <div class="grid">
+        <h1>Tesla</h1>
+        <p id="description">Experience the future of automotive technology with our cutting-edge Tesla car models.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="why">
+    <h2>Why you should choose Tesla Car</h2>
+    <div class="container">
+      <div class="card">
+        <div class="icon" >
+          <img src="images/electric.svg" alt="electric icon">
+        </div>
+        <div class="description">
+          <h3>Electric</h3>
+          <p>Experience the thrill of driving an electric vehicle with zero emissions and lower operating costs.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="images/autopilot.svg" alt="autopilot icon">
+        </div>
+        <div class="description">
+          <h3>Autopilot</h3>
+          <p>Enjoy the convenience and safety of Tesla's advanced autopilot features for a truly futuristic driving experience.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="images/speed.svg" alt="speed icon">
+        </div>
+        <div class="description">
+          <h3>Speed</h3>
+          <p>Feel the exhilaration of instant acceleration and impressive top speeds in our high-performance Tesla car models.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="info">
+    <div>
+      <h2>About Tesla Cars</h2>
+      <p>Tesla is an innovative automotive company that specializes in producing electric vehicles (EVs) and renewable energy solutions. With a focus on sustainable transportation, Tesla aims to accelerate the world's transition to clean energy.</p>
+      <p>By combining cutting-edge technology, high-performance capabilities, and sleek designs, Tesla has revolutionized the automotive industry and continues to push the boundaries of what electric vehicles can achieve.</p>
+    </div>
+    <iframe id="video" height="315" src="https://www.youtube.com/embed/XB2g7-HgE_g" allowfullscreen></iframe>
+  </section>
+
+  <section id="recent-cars">
+    <h2>Explore Recent Tesla Car Models</h2>
+    <div class="grid">
+      <div class="column-1">
+        <div class="car-card">
+          <h3>Tesla Model S</h3>
+          <p>The Tesla Model S is a luxury all-electric sedan with impressive range and acceleration.</p>
+          <ul>
+            <li>Range: Up to 405 miles</li>
+            <li>Acceleration: 0-60 mph in 1.99 seconds</li>
+            <li>Seats: Up to 5 adults</li>
+          </ul>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+      <div class="column-1">
+        <div class="car-card">
+          <h3>Tesla Model 3</h3>
+          <p>The Tesla Model 3 is a premium all-electric sedan designed for everyday driving.</p>
+          <ul>
+            <li>Range: Up to 353 miles</li>
+            <li>Acceleration: 0-60 mph in 3.1 seconds</li>
+            <li>Seats: Up to 5 adults</li>
+          </ul>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+      <div class="column-1">
+        <div class="car-card">
+          <h3>Tesla Model Y</h3>
+          <p>The Tesla Model Y is a versatile all-electric SUV with advanced safety features.</p>
+          <ul>
+            <li>Range: Up to 326 miles</li>
+            <li>Acceleration: 0-60 mph in 4.8 seconds</li>
+            <li>Seats: Up to 7 adults</li>
+          </ul>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="grid">
+    <div class="column-2">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input name="email" class="form-control" id="email" type="email" placeholder="Email address" required />
+        </div>
+        <div class="form-group">
+          <p>Message</p>
+          <textarea id="message" class="input-textarea" name="message" placeholder="Enter your message here..."></textarea>
+        </div>
+        <div class="form-group">
+          <label id="submit-label" for="submit"></label>
+          <input id="submit" type="submit" value="Submit" class="btn" />
+        </div>
+      </form>
+    </div>
+
+    <div class="column-3">
+      <div class="image-div">
+        <img src="images/contact.jpg" alt="Contact icon" width="472" height="495">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div id="footer-info">
+    <ul>
+      <li>Privacy Policy</li>
+      <li>Customer Support</li>
+      <li>Contact</li>
+    </ul>
+    <div id="copyright">Copyright 2023, Tesla</div>
+  </div>
+</footer>
+
+</main>
+
+</body>
+
+</html>
