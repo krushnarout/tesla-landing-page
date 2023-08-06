@@ -12,6 +12,7 @@ The project is structured as follows:
 
 - `index.html` - The main HTML file containing product landing page structure.
 - `styles.css` - The CSS file that styles the product landing page.
+- `images` - This folder contains all logo and image.
 
 ## Preview
 
