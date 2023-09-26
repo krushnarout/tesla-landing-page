@@ -168,6 +168,7 @@ header {
 @media (max-width: 650px) {
   header {
     flex-wrap: wrap;
+    z-index: 1;
   }
 }
 
@@ -382,9 +383,9 @@ label {
 }
 
 .form-control:focus {
-  border-color: #ced4ee;
+  border-color: #696a6b;
   outline: 0;
-  box-shadow: 0 0 1rem 0.2rem rgba(206, 212, 238, 0.25);
+  box-shadow: 0 0 1rem 0.2rem rgba(139, 140, 146, 0.25);
 }
 
 .input-textarea {
@@ -465,7 +466,7 @@ footer {
 
 #copyright {
   margin-top: 1.5rem;
-  padding-right: 100px;
+  padding-right: 6vw;
   display: flex;
   justify-content: flex-end;
   font-size: 1.2rem;
